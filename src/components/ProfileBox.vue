@@ -1,264 +1,142 @@
 <template>
-    <div> 
-        <div class="wrapper">
-             <div class="profile-box">            
-                <div class="player-profile">
-                     <div class="profile-pic">                 
-                        <img src="../assets/profile-pics/freya3.png" alt="Freya">                      
-                     </div> 
+    <div class="profile-box">
 
-                
+        <div class="center">
+            <div class="player">
 
+             <div class="player1">
+                <img src="../assets/profile-pics/1.jpg" alt="">
+             </div>
+
+             <div class="player2">
+                <img src="../assets/profile-pics/player2.webp" alt="">
                 <div class="description">
-                    <div class="tabs">
-                        <n-tabs >
-                            <n-tab-pane name="jobs" tab="Jobs">
-                                <div class="jobs">
-                                <span>PLD</span>
-                                <span>MNK</span>
-                                <span>WAR</span>
-                                <span>DRG</span>
-                                <span>SCH</span>
-                                 </div>  
-                            </n-tab-pane>
-
-                            <n-tab-pane name="raids" tab="Raid Progress">
-                                <div class="profile">                    
-                        <p>Freya Arianrhod</p>
-                        <p>Savage Progress: </p>
-                        <ul>
-                        <li>First Floor: Clear</li>
-                        <li>Second Floor: Clear</li>
-                        <li>Third Floor: Clear</li>
-                        <li>Fourth Floor: Clear</li>
-                    </ul>
-                 </div>    
-                            </n-tab-pane>
-                        </n-tabs>
-                    </div>
-                     <div class="job-icons">
-                        <img src="../assets/job-icons/Paladin.webp" alt="Paladin Icon">                       
-                     </div>
-                 
-                
-                </div>            
-                </div>   
-             
-           
-        </div> 
-           <div class="profile-box">            
-                <div class="player-profile">
-                     <div class="profile-pic">                 
-                        <img src="../assets/profile-pics/freya3.png" alt="Freya">                      
-                        </div> 
-
-                        
-                <div class="description">
-                     <div class="job-icons">
-                        <img src="../assets/job-icons/Paladin.webp" alt="Paladin Icon">                       
-                     </div>
-                 <div class="profile">                    
-                    <p>Freya Arianrhod</p>
-                    <p>Savage Progress: </p>
+                    <p>Name</p>
+                    <p>Team leader with call outs and tanking!</p>
+                    <p>savage progress:</p>
                     <ul>
-                        <li>First Floor: Clear</li>
-                        <li>Second Floor: Clear</li>
-                        <li>Third Floor: Clear</li>
-                        <li>Fourth Floor: Clear</li>
+                        <li>P1S: Cleared!</li>
+                        <li>P2S: Cleared!</li>
+                        <li>P3S: Cleared!</li>
+                        <li>P4S: Cleared!</li>
                     </ul>
-                 </div>    
-                
-                </div>            
-                </div>   
-             
-           
-        </div> 
-           <div class="profile-box">            
-                <div class="player-profile">
-                     <div class="profile-pic">                 
-                        <img src="../assets/profile-pics/freya3.png" alt="Freya">                      
-                        </div> 
+                </div>
+             </div>
 
-                        
-                <div class="description">
-                     <div class="job-icons">
-                        <img src="../assets/job-icons/Paladin.webp" alt="Paladin Icon">                       
-                     </div>
-                 <div class="profile">                    
-                    <p>Freya Arianrhod</p>
-                    <p>Savage Progress: </p>
+             <div class="player3">
+                <img src="../assets/profile-pics/3.jpg" alt="">
+             </div>
 
-                    <ul>
-                        <li>First Floor: 
-                            <div class="progress-bar">
-                                <n-progress
-                            type="line"
-                            indicator-placement="inside"
-                            color ="orange"
-                            :percentage="100"
-                            processing></n-progress>
-                            </div>
-                            
-                        </li>
+             <div class="player4">
+                <img src="../assets/profile-pics/4.jpg" alt="">
+             </div>
 
-                        <li>Second Floor:
-                             <div class="progress-bar">
-                                <n-progress
-                            type="line"
-                            indicator-placement="inside"
-                            
-                            :percentage="100"
-                            processing></n-progress>
-                            </div>
-                        </li>
-                        <li>Third Floor: 
-                             <div class="progress-bar">
-                                <n-progress
-                            type="line"
-                            indicator-placement="inside"
-                            
-                            :percentage="100"
-                            processing></n-progress>
-                            </div>
-                        </li>
-                        <li>Fourth Floor: 
-                             <div class="progress-bar">
-                                <n-progress
-                            type="line"
-                            indicator-placement="inside"
-                            
-                            :percentage="100"
-                            processing></n-progress>
-                            </div>
-                        </li>
-                    </ul>
-                 </div>    
-                
-                </div>            
-                </div>   
-             
-           
-        </div> 
-           <div class="profile-box">            
-                <div class="player-profile">
-                     <div class="profile-pic">                 
-                        <img src="../assets/profile-pics/freya3.png" alt="Freya">                      
-                        </div> 
+            </div>
 
-                        
-                <div class="description">
-                     <div class="job-icons">
-                        <img src="../assets/job-icons/Paladin.webp" alt="Paladin Icon">                       
-                     </div>
-                 <div class="profile">                    
-                    <p>Freya Arianrhod</p>
-                    <p>Savage Progress: </p>
-                    <ul>
-                        <li>First Floor: Clear</li>
-                        <li>Second Floor: Clear</li>
-                        <li>Third Floor: Clear</li>
-                        <li>Fourth Floor: Clear</li>
-                    </ul>
-                 </div>    
-                
-                </div>            
-                </div>   
-             
-           
-        </div> 
-    </div>       
-        
-           
+        </div>
 
-     </div> 
-
-        
-
-
-
+    </div>
 </template>
 
 <script>
+    export default{
+        data(){
+            return{
 
+            }
+        },
+
+        methods:{
+            enlarge(){
+                alert('clicked!')
+            }
+        }
+    }
 </script>
 
 <style scoped>
-body{
- background-color:aquamarine;
-}
-.wrapper{
-    display:flex;
-    justify-content: center;
-    height:100%;
-   
-    outline:auto;
-}
+
 .profile-box{
-    display:inline-block;
+    display:flex;    
+    outline:auto;   
+    width:1270px;
+    height: 720px;   
+
+}
+.center{
+    width:800px;
+    height:350px;
+    margin:auto auto;
     outline:auto;
-    width:12%;
-    height:100%;
-    overflow:hidden;
-    position:relative;    
-    transition: width 2s, height 2s;
-    transform:skew(4deg);
-    
-
-    
-    
 }
 
-.profile-pic> img{
-    margin-left: -250px;
-    transition: margin-left 2s;
-}
-
-.profile-box:hover{
-     
-    object-fit: cover;
-    width:50%;
-    height:100%;
-
- }
- .profile-pic > img:hover{
-    margin-left: 0px;
-    
- }
-
- .profile {
-    color:white;
-   
- }
-
-.progress-bar{
-    width:70%;
+.player{
+    width:800px;
+    height:350px;
     display:inline-block;
+}
+.player1{
+    background-image:url(../assets/profile-pics/Freya.jpg);
+    width:25%;
+    height:100%;
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+.player1 img{
+    width:100%;
+    height:100%;
+}
+
+.player2{
+    
+    width:25%;
+    height:100%;
+    display:inline-block;
+}
+.player2 img{
+    width:100%;
+    height:100%;
+    margin:auto auto;
     
 }
-.description{
-    position: absolute;
-    top:300px;
-    left:300px;
-    width:600px;
-    height:363px;
-    background: rgba(1, 25, 31, 0.884);
-    transform:skew(-4deg);
 
+.player2 .description{
+    display:none;
 }
-.description .tabs{
-    margin-left:20%;
-    color:red;
+.plaer2 .description :hover{
+    display:inline-block;
 }
-
-.jobs{
-    position:absolute;
-    top:700px;
-    left: 50px;
-    width:300px;
-    height: 200px;
-    background:rgba(88, 135, 146, 0.5);
+.player2 img + .description :hover {
+    width:200%;
+    display:inline-block;
+    filter:blur(4px);    
 }
 
 
+.player3{
+    width:25%;
+    height:100%;
+    display:inline-block;
+}
+
+.player3 img{
+    width:100%;
+    height:100%;
+}
+
+.player4{
+    width:25%;
+    height:100%;
+    display:inline-block;
+}
+
+.player4 img{
+    width:100%;
+    height:100%;
+}
+
+img{
+    border-radius:8px;
+}
 
 </style>
